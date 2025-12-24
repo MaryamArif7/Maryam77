@@ -17,7 +17,7 @@ import { Link } from 'next-view-transitions';
 import Image from 'next/image';
 import React, { useState } from 'react';
 
-import ArrowRight from '../svgs/ArrowRight';
+// import ArrowRight from '../svgs/ArrowRight';
 import Github from '../svgs/Github';
 import PlayCircle from '../svgs/PlayCircle';
 import Website from '../svgs/Website';
@@ -157,12 +157,12 @@ export function ProjectCard({ project }: ProjectCardProps) {
               </>
             )}
           </div>
-          <Link
+          {/* <Link
             href={project.projectDetailsPageSlug}
             className="text-secondary flex items-center gap-2 text-sm hover:underline underline-offset-4 hover:text-primary transition-colors"
           >
             View Details <ArrowRight className="size-4" />
-          </Link>
+          </Link> */}
         </CardFooter>
       )}
     </Card>
