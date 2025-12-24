@@ -117,6 +117,11 @@ export const experiences: Experience[] = [
         href: 'https://react.dev/',
         icon: <ReactIcon />,
       },
+      {
+        name: 'Tailwind CSS',
+        href: 'https://tailwindcss.com/',
+        icon: <TailwindCss />,
+      },
     ],
     website: 'https://bhindi.io',
     github: 'https://github.com/upsurgeio',
@@ -131,7 +136,7 @@ export const experiences: Experience[] = [
     location: 'india(remote)',
     image: '/company/iotiot_logo.jfif',
     description: [
-      '•	Converted Figma designs to working React applications, learned best coding practices, and used GitLab for version control',
+      'Converted Figma designs to working React applications, learned best coding practices, and used GitLab for version control',
      
     ],
     startDate: 'July 2024',
@@ -143,10 +148,15 @@ export const experiences: Experience[] = [
         href: 'https://react.dev/',
         icon: <ReactIcon />,
       },
+      {
+        name: 'Tailwind CSS',
+        href: 'https://tailwindcss.com/',
+        icon: <TailwindCss />,
+      },
     ],
-    website: 'https://bhindi.io',
-    github: 'https://github.com/upsurgeio',
-    x: 'https://x.com/upsurgelabs',
+    website: '',
+    github: '',
+    x: '',
     linkedin: 'https://www.linkedin.com/company/upsurge-labs-pte-ltd',
   },
  
