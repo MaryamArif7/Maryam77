@@ -1,5 +1,4 @@
 import { about, mySkills } from '@/config/About';
-import Image from 'next/image';
 import React from 'react';
 
 import Container from '../common/Container';

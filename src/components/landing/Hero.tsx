@@ -2,13 +2,13 @@ import { heroConfig, skillComponents, socialLinks } from '@/config/Hero';
 import { parseTemplate } from '@/lib/hero';
 import { cn } from '@/lib/utils';
 import { Link } from 'next-view-transitions';
-import Image from 'next/image';
+
 import React from 'react';
 
 import Container from '../common/Container';
 import Skill from '../common/Skill';
 import CV from '../svgs/CV';
-import Chat from '../svgs/Chat';
+
 import { Button } from '../ui/button';
 import { Tooltip, TooltipContent, TooltipTrigger } from '../ui/tooltip';
 
@@ -18,7 +18,7 @@ const buttonIcons = {
 };
 
 export default function Hero() {
-  const { name, title, avatar, skills, description, buttons } = heroConfig;
+  const { name, title,  skills, description, buttons } = heroConfig;
 
   const renderDescription = () => {
     const parts = parseTemplate(description.template, skills);

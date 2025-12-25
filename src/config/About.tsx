@@ -1,4 +1,4 @@
-import Bun from '@/components/technologies/Bun';
+
 import JavaScript from '@/components/technologies/JavaScript';
 import MongoDB from '@/components/technologies/MongoDB';
 import NextJs from '@/components/technologies/NextJs';

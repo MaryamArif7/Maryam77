@@ -24,6 +24,4 @@ export const journeyItems: JourneyItem[] = [
   },
 ];
 
-export default {
-  journeyItems,
-};
+export default journeyItems;
